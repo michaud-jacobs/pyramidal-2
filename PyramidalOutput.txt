@@ -1,0 +1,958 @@
+Magma V2.26-6     Wed Dec  1 2021 16:59:53 on atkin    [Seed = 3321892202]
+Type ? for help.  Type <Ctrl>-D to quit.
+Loading "PyramidalFunctions.m"
+Considering m = 6
+Case 1
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10> ], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1> ], [], []>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 10
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <13, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <13, 10> ], [ <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 10> ], [], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 12
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <17, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <17, 10> ], [ <17, 1> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <7, 10> ], [], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 16
+Case 1
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 9> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <11, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 9> ], [ <5, 2> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <11, 10> ], [], [ <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 18
+Case 1
+For <A,B> = <[], [ <2, 1>, <3, 1>, <29, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <13, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <29, 10> ], [ <29, 1> ]>
+Initial bad primes are { 7 }
+7 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <13, 10> ], [], [ <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 22
+Case 1
+For <A,B> = <[], [ <2, 1>, <3, 1>, <37, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <17, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <37, 10> ], [ <37, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <17, 10> ], [], [ <17, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 24
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <19, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <41, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <41, 10> ], [ <41, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <19, 10> ], [], [ <19, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 28
+Case 1
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <7, 9> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <23, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 9> ], [ <7, 2> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <23, 10> ], [], [ <23, 1> ]>
+Initial bad primes are { 11 }
+Computing newforms at levels { 138, 2208 }
+11 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(-2*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a - 4)*q^11 + O(q^12)
+at level 138
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 30
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <5, 9> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <53, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <53, 10> ], [ <53, 1> ]>
+Initial bad primes are { 13 }
+Computing newforms at levels { 318, 5088 }
+11 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(-a + 1)*q^7 + q^8 + q^9 + a*q^10 - q^11 + O(q^12)
+at level 318
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 9> ], [], [ <5, 2> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 34
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <29, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <61, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <61, 10> ], [ <61, 1> ]>
+Initial bad primes are { 3, 5 }
+3 eliminated by directly solving Thue equations
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <29, 10> ], [], [ <29, 1> ]>
+Initial bad primes are { 7 }
+7 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 48
+Case 1
+For <A,B> = <[ <2, 1>, <3, 1>, <43, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <89, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <89, 10> ], [ <89, 1> ]>
+Initial bad primes are { 11 }
+Computing newforms at levels { 534, 8544 }
+11 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+1/4*(-3*a^3 + a^2 + 37*a - 18)*q^7 + q^8 + q^9 + a*q^10 + (a^3 - 13*a + 6)*q^11 
++ O(q^12)
+at level 534
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <43, 10> ], [], [ <43, 1> ]>
+Initial bad primes are { 3, 7 }
+3 eliminated by directly solving Thue equations
+7 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 8
+Case 1
+For <A,B> = <[ <2, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10> ], [ <3, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 14
+Case 1
+For <A,B> = <[ <2, 1>, <3, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <7, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <7, 10> ], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 10> ], [], [ <3, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 20
+Case 1
+For <A,B> = <[ <2, 1>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <11, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <11, 10> ], [ <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <5, 10> ], [], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 32
+Case 1
+For <A,B> = <[ <2, 1>, <3, 9> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <19, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <19, 10> ], [ <19, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 9> ], [], [ <3, 2> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 38
+Case 1
+For <A,B> = <[ <2, 1>, <11, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <23, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <23, 10> ], [ <23, 1> ]>
+Initial bad primes are { 11 }
+Computing newforms at levels { 46, 736 }
+14 auxilliary primes found
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <11, 10> ], [], [ <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 44
+Case 1
+For <A,B> = <[], [ <2, 1>, <3, 8> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <13, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 8> ], [ <3, 3> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <13, 10> ], [], [ <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 7
+Case 2
+For <A,B> = <[ <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1> ], [ <3, 1> ]>
+Bad primes are [ 3 ]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <7, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10> ], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1> ], [], []>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 15
+Case 2
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <23, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <3, 1>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <23, 10> ], [ <23, 1> ]>
+Initial bad primes are { 11 }
+Computing newforms at levels { 138, 2208 }
+8 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(-2*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a - 4)*q^11 + O(q^12)
+at level 138
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <5, 10> ], [], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 19
+Case 2
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <31, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <3, 1>, <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <31, 10> ], [ <31, 1> ]>
+Initial bad primes are { 3, 5 }
+3 eliminated by directly solving Thue equations
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <7, 10> ], [], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 27
+Case 2
+For <A,B> = <[ <3, 1>, <11, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <47, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <47, 10> ], [ <47, 1> ]>
+Initial bad primes are { 23 }
+Computing newforms at levels { 282, 4512 }
+15 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(a^2 - 4*a - 4)*q^7 + q^8 + q^9 + a*q^10 + (-2*a^2 + 5*a + 8)*q^11 + O(q^12)
+at level 282
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <11, 10> ], [], [ <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 39
+Case 2
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <71, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <3, 1>, <17, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <71, 10> ], [ <71, 1> ]>
+Initial bad primes are { 5, 7 }
+5 eliminated by directly solving Thue equations
+7 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <17, 10> ], [], [ <17, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 43
+Case 2
+For <A,B> = <[ <3, 1>, <19, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <79, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <79, 10> ], [ <79, 1> ]>
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 474, 7584 }
+12 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(-a + 1)*q^7 + q^8 + q^9 + a*q^10 + (-a^2 + a + 3)*q^11 + O(q^12)
+at level 474
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <19, 10> ], [], [ <19, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 11
+Case 2
+For <A,B> = <[], [ <2, 1>, <5, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <5, 10> ], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[], [], []>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 23
+Case 2
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <13, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <3, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <13, 10> ], [ <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 10> ], [], [ <3, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 47
+Case 2
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <29, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <29, 10> ], [ <29, 1> ]>
+Initial bad primes are { 7 }
+7 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <7, 10> ], [], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 9
+Case 3
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <11, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 10>, <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <11, 10> ], [ <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10>, <3, 1> ], [], [ <2, 2> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 25
+Case 3
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <43, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 10>, <3, 1>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <43, 10> ], [ <43, 1> ]>
+Initial bad primes are { 3, 7 }
+3 eliminated by directly solving Thue equations
+7 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <5, 10> ], [], [ <2, 2>, <5, 1>
+]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 33
+Case 3
+For <A,B> = <[ <2, 10>, <3, 1>, <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <59, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <59, 10> ], [ <59, 1> ]>
+Initial bad primes are { 29 }
+Computing newforms at levels { 354, 5664 }
+11 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+1/2*(-a^2 - 2*a + 6)*q^7 + q^8 + q^9 + a*q^10 + 1/2*(3*a^2 - 2*a - 14)*q^11 + 
+O(q^12)
+at level 354
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <7, 10> ], [], [ <2, 2>, <7, 1>
+]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 17
+Case 3
+For <A,B> = <[ <2, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 9> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 9> ], [ <3, 2> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10> ], [], [ <2, 2> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 41
+Case 3
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <5, 9> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 10>, <3, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <5, 9> ], [ <5, 2> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10>, <3, 10> ], [], [ <2, 2>, <3, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 36
+Case 11
+This is part of Case 1 in the paper
+For <A,B> = <[ <2, 1>, <3, 1>, <31, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 10>, <13, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <13, 10> ], [ <5, 
+1>, <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <31, 10> ], [], [ <31, 1> ]>
+Initial bad primes are { 3, 5 }
+3 eliminated by directly solving Thue equations
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 42
+Case 11
+This is part of Case 1 in the paper
+For <A,B> = <[ <2, 1>, <3, 1>, <37, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <7, 10>, <11, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <11, 10> ], [ <7, 
+1>, <11, 1> ]>
+Initial bad primes are { 3, 5 }
+3 eliminated by directly solving Thue equations
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <37, 10> ], [], [ <37, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 46
+Case 11
+This is part of Case 1 in the paper
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 10>, <17, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <41, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <17, 10> ], [ <5, 
+1>, <17, 1> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <41, 10> ], [], [ <41, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 26
+Case 11
+This is part of Case 1 in the paper
+For <A,B> = <[ <2, 1>, <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1> ], [ <3, 1> ]>
+Bad primes are [ 3 ]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 10>, <5, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10>, <5, 10> ], [ <3, 1>, <5, 1>
+]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <7, 10> ], [], [ <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 40
+Case 12
+This is part of Case 1 in the paper
+For <A,B> = <[], [ <2, 1>, <3, 1>, <73, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <73, 10> ], [ <73, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [], [ <5, 
+1>, <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 50
+Case 12
+This is part of Case 1 in the paper
+For <A,B> = <[ <3, 1>, <5, 1> ], [ <2, 1> ]>
+Bad primes are [ 3 ]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <31, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 1>, <3, 10>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <31, 10> ], [ <31, 1> ]>
+Initial bad primes are { 3, 5 }
+3 eliminated by directly solving Thue equations
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 1>, <3, 10>, <5, 10> ], [], [ <3, 1>, <5, 1>
+]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 31
+Case 21
+This is part of Case 2 in the paper
+For <A,B> = <[ <2, 1> ], [ <3, 1> ]>
+Bad primes are [ 5 ]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 10>, <11, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <3, 1>, <13, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <11, 10> ], [ <5, 
+1>, <11, 1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <3, 1>, <13, 10> ], [], [ <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 35
+Case 21
+This is part of Case 2 in the paper
+For <A,B> = <[], [ <2, 1>, <3, 10>, <7, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10>, <7, 10> ], [ <3, 1>, <7, 1>
+]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <5, 10> ], [], [ <5, 1> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 49
+Case 31
+This is part of Case 3 in the paper
+For <A,B> = <[], [ <2, 1>, <3, 1>, <7, 10>, <13, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 10>, <3, 1>, <11, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <13, 10> ], [ <7, 
+1>, <13, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <11, 10> ], [], [ <2, 2>, <11, 
+1> ]>
+Initial bad primes are { 5 }
+5 eliminated by directly solving Thue equations
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 13
+Case 4
+For <A,B> = <[], [ <2, 1>, <3, 1>, <19, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 9>, <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <19, 10> ], [ <19, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 9>, <3, 1> ], [], [ <2, 3> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 45
+Case 4
+For <A,B> = <[ <2, 9>, <3, 1>, <5, 10> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <83, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <83, 10> ], [ <83, 1> ]>
+Initial bad primes are { 41 }
+Computing newforms at levels { 498, 7968 }
+12 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+(a^3 - 7*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a^3 + a^2 + 5*a - 2)*q^11 + O(q^12)
+at level 498
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 9>, <3, 1>, <5, 10> ], [], [ <2, 3>, <5, 1> 
+]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 29
+Case 4
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <17, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 9> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <17, 10> ], [ <17, 1> ]>
+Initial bad primes are {}
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 9> ], [], [ <2, 3> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 21
+Case 5
+For <A,B> = <[], [ <2, 1>, <3, 1>, <5, 10>, <7, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 8>, <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[ <2, 4>, <3, 1> ], []>
+Bad primes are [ 7 ]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [ <5, 
+1>, <7, 1> ]>
+Initial bad primes are { 3 }
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 8>, <3, 1> ], [], [ <2, 4> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering m = 37
+Case 6
+For <A,B> = <[ <2, 7>, <3, 1> ], []>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+For <A,B> = <[], [ <2, 1>, <3, 1>, <67, 10> ]>
+Many bad primes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <67, 10> ], [ <67, 1> ]>
+Initial bad primes are { 3, 11 }
+Computing newforms at levels { 402, 6432 }
+11 auxilliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+1/2*(a^2 - 3*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-2*a + 2)*q^11 + O(q^12)
+at level 402
+3 eliminated by directly solving Thue equations
+All primes eliminated
+Modular method for <A,B,C> = <[ <2, 7>, <3, 1> ], [], [ <2, 5> ]>
+Initial bad primes are {}
+All primes eliminated
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Considering extra cases for small p and bm = 2^t with t > 2
+[ 1, 2, 3 ]
+No unexpected solutions found from extra cases
