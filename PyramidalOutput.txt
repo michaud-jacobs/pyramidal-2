@@ -1,5 +1,3 @@
-Magma V2.26-6     Wed Dec  1 2021 16:59:53 on atkin    [Seed = 3321892202]
-Type ? for help.  Type <Ctrl>-D to quit.
 Loading "PyramidalFunctions.m"
 Considering m = 6
 Case 1
@@ -13,7 +11,9 @@ For <A,B> = <[ <2, 1>, <3, 1> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10> ], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1> ], [], []>
 Initial bad primes are {}
@@ -31,11 +31,17 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <13, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <13, 10> ], [ <13, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 78, 1248 }
+Trying to eliminate p = 13
+12 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 10> ], [], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 12
@@ -50,11 +56,17 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <17, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <17, 10> ], [ <17, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 17 }
+Computing newforms at levels { 102, 1632 }
+Trying to eliminate p = 17
+16 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <7, 10> ], [], [ <7, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 16
@@ -69,10 +81,16 @@ For <A,B> = <[ <2, 1>, <3, 1>, <11, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 9> ], [ <5, 2> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <11, 10> ], [], [ <11, 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 66, 1056 }
+Trying to eliminate p = 11
+15 auxiliary primes found
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -88,11 +106,19 @@ For <A,B> = <[ <2, 1>, <3, 1>, <13, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <29, 10> ], [ <29, 1> ]>
-Initial bad primes are { 7 }
+Initial bad primes are { 7, 29 }
+Computing newforms at levels { 174, 2784 }
+Trying to eliminate p = 7
 7 eliminated by directly solving Thue equations
+Trying to eliminate p = 29
+13 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <13, 10> ], [], [ <13, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 78, 1248 }
+Trying to eliminate p = 13
+16 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -108,11 +134,18 @@ For <A,B> = <[ <2, 1>, <3, 1>, <17, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <37, 10> ], [ <37, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 37 }
+Computing newforms at levels { 222, 3552 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 37
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <17, 10> ], [], [ <17, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 17 }
+Computing newforms at levels { 102, 1632 }
+Trying to eliminate p = 17
+17 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 24
@@ -127,12 +160,20 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <41, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <41, 10> ], [ <41, 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 41 }
+Computing newforms at levels { 246, 3936 }
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 41
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <19, 10> ], [], [ <19, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 19 }
+Computing newforms at levels { 114, 1824 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 19
+11 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 28
@@ -147,16 +188,22 @@ For <A,B> = <[ <2, 1>, <3, 1>, <23, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 9> ], [ <7, 2> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <23, 10> ], [], [ <23, 1> ]>
-Initial bad primes are { 11 }
+Initial bad primes are { 11, 23 }
 Computing newforms at levels { 138, 2208 }
-11 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 11
+11 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (-2*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a - 4)*q^11 + O(q^12)
 at level 138
+Trying to eliminate p = 23
+14 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 30
@@ -171,15 +218,20 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <53, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <53, 10> ], [ <53, 1> ]>
-Initial bad primes are { 13 }
+Initial bad primes are { 13, 53 }
 Computing newforms at levels { 318, 5088 }
-11 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 13
+11 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (-a + 1)*q^7 + q^8 + q^9 + a*q^10 - q^11 + O(q^12)
 at level 318
+Trying to eliminate p = 53
+9 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 9> ], [], [ <5, 2> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 34
@@ -194,13 +246,22 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <61, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <61, 10> ], [ <61, 1> ]>
-Initial bad primes are { 3, 5 }
+Initial bad primes are { 3, 5, 61 }
+Computing newforms at levels { 366, 5856 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 61
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <29, 10> ], [], [ <29, 1> ]>
-Initial bad primes are { 7 }
+Initial bad primes are { 7, 29 }
+Computing newforms at levels { 174, 2784 }
+Trying to eliminate p = 7
 7 eliminated by directly solving Thue equations
+Trying to eliminate p = 29
+14 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 48
@@ -215,18 +276,26 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <89, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <89, 10> ], [ <89, 1> ]>
-Initial bad primes are { 11 }
+Initial bad primes are { 11, 89 }
 Computing newforms at levels { 534, 8544 }
-11 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
-1/4*(-3*a^3 + a^2 + 37*a - 18)*q^7 + q^8 + q^9 + a*q^10 + (a^3 - 13*a + 6)*q^11 
+Trying to eliminate p = 11
+11 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
+1/4*(-3*a^3 + a^2 + 37*a - 18)*q^7 + q^8 + q^9 + a*q^10 + (a^3 - 13*a + 6)*q^11
 + O(q^12)
 at level 534
+Trying to eliminate p = 89
+13 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <43, 10> ], [], [ <43, 1> ]>
-Initial bad primes are { 3, 7 }
+Initial bad primes are { 3, 7, 43 }
+Computing newforms at levels { 258, 4128 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
 7 eliminated by directly solving Thue equations
+Trying to eliminate p = 43
+14 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 8
@@ -241,7 +310,9 @@ For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10> ], [ <3, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 14
@@ -256,11 +327,16 @@ For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <7, 10> ], [ <7, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 7
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 10> ], [], [ <3, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 20
@@ -275,11 +351,17 @@ For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <11, 10> ], [ <11, 1> ]>
-Initial bad primes are { 5 }
-5 eliminated by directly solving Thue equations
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 22, 352 }
+Trying to eliminate p = 11
+eliminated using known results
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <5, 10> ], [], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 32
@@ -294,11 +376,17 @@ For <A,B> = <[], [ <2, 1>, <19, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <19, 10> ], [ <19, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 19 }
+Computing newforms at levels { 38, 608 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 19
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 9> ], [], [ <3, 2> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 38
@@ -313,13 +401,20 @@ For <A,B> = <[], [ <2, 1>, <23, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <23, 10> ], [ <23, 1> ]>
-Initial bad primes are { 11 }
+Initial bad primes are { 11, 23 }
 Computing newforms at levels { 46, 736 }
-14 auxilliary primes found
+Trying to eliminate p = 11
+eliminated using known results
+Trying to eliminate p = 23
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <11, 10> ], [], [ <11, 1> ]>
-Initial bad primes are { 5 }
-5 eliminated by directly solving Thue equations
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 22, 352 }
+Trying to eliminate p = 11
+eliminated using known results
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 44
@@ -334,11 +429,17 @@ For <A,B> = <[ <2, 1>, <13, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 8> ], [ <3, 3> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <13, 10> ], [], [ <13, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 26, 416 }
+Trying to eliminate p = 13
+eliminated using known results
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 7
@@ -356,8 +457,11 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <7, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10> ], [ <7, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1> ], [], []>
 Initial bad primes are {}
@@ -375,15 +479,20 @@ For <A,B> = <[ <3, 1>, <5, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <23, 10> ], [ <23, 1> ]>
-Initial bad primes are { 11 }
+Initial bad primes are { 11, 23 }
 Computing newforms at levels { 138, 2208 }
-8 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 11
+8 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (-2*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a - 4)*q^11 + O(q^12)
 at level 138
+Trying to eliminate p = 23
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <5, 10> ], [], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 19
@@ -398,13 +507,21 @@ For <A,B> = <[ <3, 1>, <7, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <31, 10> ], [ <31, 1> ]>
-Initial bad primes are { 3, 5 }
+Initial bad primes are { 3, 5, 31 }
+Computing newforms at levels { 186, 2976 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 31
+12 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <7, 10> ], [], [ <7, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 7
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 27
@@ -419,16 +536,23 @@ For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <47, 10> ], [ <47, 1> ]>
-Initial bad primes are { 23 }
+Initial bad primes are { 23, 47 }
 Computing newforms at levels { 282, 4512 }
-15 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 23
+15 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (a^2 - 4*a - 4)*q^7 + q^8 + q^9 + a*q^10 + (-2*a^2 + 5*a + 8)*q^11 + O(q^12)
 at level 282
+Trying to eliminate p = 47
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <11, 10> ], [], [ <11, 1> ]>
-Initial bad primes are { 5 }
-5 eliminated by directly solving Thue equations
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 66, 1056 }
+Trying to eliminate p = 11
+eliminated using known results
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 39
@@ -443,12 +567,20 @@ For <A,B> = <[ <3, 1>, <17, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <71, 10> ], [ <71, 1> ]>
-Initial bad primes are { 5, 7 }
+Initial bad primes are { 5, 7, 71 }
+Computing newforms at levels { 426, 6816 }
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 71
+11 auxiliary primes found
+Trying to eliminate p = 7
 7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <17, 10> ], [], [ <17, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 17 }
+Computing newforms at levels { 102, 1632 }
+Trying to eliminate p = 17
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 43
@@ -463,17 +595,25 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <79, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <79, 10> ], [ <79, 1> ]>
-Initial bad primes are { 3, 13 }
+Initial bad primes are { 3, 13, 79 }
 Computing newforms at levels { 474, 7584 }
-12 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 13
+12 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (-a + 1)*q^7 + q^8 + q^9 + a*q^10 + (-a^2 + a + 3)*q^11 + O(q^12)
 at level 474
+Trying to eliminate p = 79
+13 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <19, 10> ], [], [ <19, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 19 }
+Computing newforms at levels { 114, 1824 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 19
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 11
@@ -488,7 +628,9 @@ For <A,B> = <[], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <5, 10> ], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[], [], []>
 Initial bad primes are {}
@@ -506,11 +648,17 @@ For <A,B> = <[ <3, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <13, 10> ], [ <13, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 26, 416 }
+Trying to eliminate p = 13
+eliminated using known results
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 10> ], [], [ <3, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 47
@@ -525,12 +673,19 @@ For <A,B> = <[ <7, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <29, 10> ], [ <29, 1> ]>
-Initial bad primes are { 7 }
-7 eliminated by directly solving Thue equations
+Initial bad primes are { 7, 29 }
+Computing newforms at levels { 58, 928 }
+Trying to eliminate p = 7
+eliminated using known results
+Trying to eliminate p = 29
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <7, 10> ], [], [ <7, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 7
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 9
@@ -545,7 +700,11 @@ For <A,B> = <[ <2, 10>, <3, 1> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <11, 10> ], [ <11, 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 66, 1056 }
+Trying to eliminate p = 11
+8 auxiliary primes found
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 10>, <3, 1> ], [], [ <2, 2> ]>
@@ -564,13 +723,20 @@ For <A,B> = <[ <2, 10>, <3, 1>, <5, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <43, 10> ], [ <43, 1> ]>
-Initial bad primes are { 3, 7 }
+Initial bad primes are { 3, 7, 43 }
+Computing newforms at levels { 258, 4128 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
 7 eliminated by directly solving Thue equations
+Trying to eliminate p = 43
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <5, 10> ], [], [ <2, 2>, <5, 1>
 ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 33
@@ -585,18 +751,24 @@ For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <59, 10> ], [ <59, 1> ]>
-Initial bad primes are { 29 }
+Initial bad primes are { 29, 59 }
 Computing newforms at levels { 354, 5664 }
-11 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
-1/2*(-a^2 - 2*a + 6)*q^7 + q^8 + q^9 + a*q^10 + 1/2*(3*a^2 - 2*a - 14)*q^11 + 
+Trying to eliminate p = 59
+15 auxiliary primes found
+Trying to eliminate p = 29
+11 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
+1/2*(-a^2 - 2*a + 6)*q^7 + q^8 + q^9 + a*q^10 + 1/2*(3*a^2 - 2*a - 14)*q^11 +
 O(q^12)
 at level 354
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <7, 10> ], [], [ <2, 2>, <7, 1>
 ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 17
@@ -611,7 +783,9 @@ For <A,B> = <[], [ <2, 1>, <3, 9> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 9> ], [ <3, 2> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 10> ], [], [ <2, 2> ]>
 Initial bad primes are {}
@@ -629,10 +803,14 @@ For <A,B> = <[ <2, 10>, <3, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <5, 9> ], [ <5, 2> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 10>, <3, 10> ], [], [ <2, 2>, <3, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 3 }
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 36
@@ -647,15 +825,26 @@ Many bad primes
 For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <13, 10> ], [ <5, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <13, 10> ], [ <5,
 1>, <13, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 5, 13 }
+Computing newforms at levels { 390, 6240 }
+Trying to eliminate p = 13
+15 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <31, 10> ], [], [ <31, 1> ]>
-Initial bad primes are { 3, 5 }
+Initial bad primes are { 3, 5, 31 }
+Computing newforms at levels { 186, 2976 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 31
+12 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 42
@@ -670,15 +859,26 @@ Many bad primes
 For <A,B> = <[], [ <2, 1> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <11, 10> ], [ <7, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <11, 10> ], [ <7,
 1>, <11, 1> ]>
-Initial bad primes are { 3, 5 }
+Initial bad primes are { 3, 5, 7, 11 }
+Computing newforms at levels { 462, 7392 }
+Trying to eliminate p = 11
+10 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <37, 10> ], [], [ <37, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 37 }
+Computing newforms at levels { 222, 3552 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 37
+14 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 46
@@ -693,13 +893,22 @@ Many bad primes
 For <A,B> = <[ <2, 1>, <3, 1>, <41, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <17, 10> ], [ <5, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <17, 10> ], [ <5,
 1>, <17, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5, 17 }
+Computing newforms at levels { 510, 8160 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
+Trying to eliminate p = 17
+14 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <41, 10> ], [], [ <41, 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 41 }
+Computing newforms at levels { 246, 3936 }
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 41
+14 auxiliary primes found
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 26
@@ -719,11 +928,18 @@ Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10>, <5, 10> ], [ <3, 1>, <5, 1>
 ]>
-Initial bad primes are {}
+Initial bad primes are { 3, 5 }
+Trying to eliminate p = 3
+3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <7, 10> ], [], [ <7, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
+eliminated using known results
+Trying to eliminate p = 7
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 40
@@ -739,13 +955,22 @@ For <A,B> = <[ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <73, 10> ], [ <73, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 73 }
+Computing newforms at levels { 438, 7008 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 73
+14 auxiliary primes found
 All primes eliminated
-Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [], [ <5, 
+Modular method for <A,B,C> = <[ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [], [ <5,
 1>, <7, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 5, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 50
@@ -764,13 +989,22 @@ For <A,B> = <[ <2, 1>, <3, 10>, <5, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <31, 10> ], [ <31, 1> ]>
-Initial bad primes are { 3, 5 }
+Initial bad primes are { 3, 5, 31 }
+Computing newforms at levels { 62, 992 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
+Trying to eliminate p = 31
+12 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 1>, <3, 10>, <5, 10> ], [], [ <3, 1>, <5, 1>
 ]>
-Initial bad primes are {}
+Initial bad primes are { 3, 5 }
+Trying to eliminate p = 3
+3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 31
@@ -788,14 +1022,22 @@ Many bad primes
 For <A,B> = <[ <3, 1>, <13, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <11, 10> ], [ <5, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <11, 10> ], [ <5,
 1>, <11, 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 330, 5280 }
+Trying to eliminate p = 11
+8 auxiliary primes found
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <3, 1>, <13, 10> ], [], [ <13, 1> ]>
-Initial bad primes are { 3 }
-3 eliminated by directly solving Thue equations
+Initial bad primes are { 3, 13 }
+Computing newforms at levels { 78, 1248 }
+Trying to eliminate p = 13
+eliminated using known results
+Trying to eliminate p = 3
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 35
@@ -812,11 +1054,16 @@ Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 10>, <7, 10> ], [ <3, 1>, <7, 1>
 ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <5, 10> ], [], [ <5, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+eliminated using known results
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 49
@@ -831,14 +1078,25 @@ Many bad primes
 For <A,B> = <[ <2, 10>, <3, 1>, <11, 10> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <13, 10> ], [ <7, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <7, 10>, <13, 10> ], [ <7,
 1>, <13, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 7, 13 }
+Computing newforms at levels { 546, 8736 }
+Trying to eliminate p = 13
+13 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
-Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <11, 10> ], [], [ <2, 2>, <11, 
+Modular method for <A,B,C> = <[ <2, 10>, <3, 1>, <11, 10> ], [], [ <2, 2>, <11,
 1> ]>
-Initial bad primes are { 5 }
+Initial bad primes are { 5, 11 }
+Computing newforms at levels { 66, 1056 }
+Trying to eliminate p = 11
+Takes a bit under an hour to solve this Thue equation
+11 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
 5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -854,8 +1112,12 @@ For <A,B> = <[ <2, 9>, <3, 1> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <19, 10> ], [ <19, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 19 }
+Computing newforms at levels { 114, 1824 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 19
+11 auxiliary primes found
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 9>, <3, 1> ], [], [ <2, 3> ]>
 Initial bad primes are {}
@@ -873,16 +1135,21 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <83, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <83, 10> ], [ <83, 1> ]>
-Initial bad primes are { 41 }
+Initial bad primes are { 41, 83 }
 Computing newforms at levels { 498, 7968 }
-12 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 83
+11 auxiliary primes found
+Trying to eliminate p = 41
+12 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 (a^3 - 7*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-a^3 + a^2 + 5*a - 2)*q^11 + O(q^12)
 at level 498
 All primes eliminated
-Modular method for <A,B,C> = <[ <2, 9>, <3, 1>, <5, 10> ], [], [ <2, 3>, <5, 1> 
+Modular method for <A,B,C> = <[ <2, 9>, <3, 1>, <5, 10> ], [], [ <2, 3>, <5, 1>
 ]>
-Initial bad primes are {}
+Initial bad primes are { 5 }
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
 All primes eliminated
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Considering m = 29
@@ -897,7 +1164,10 @@ For <A,B> = <[ <2, 9> ], []>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <17, 10> ], [ <17, 1> ]>
-Initial bad primes are {}
+Initial bad primes are { 17 }
+Computing newforms at levels { 34, 544 }
+Trying to eliminate p = 17
+eliminated using known results
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 9> ], [], [ <2, 3> ]>
 Initial bad primes are {}
@@ -917,10 +1187,15 @@ Many bad primes
 For <A,B> = <[ <2, 4>, <3, 1> ], []>
 Bad primes are [ 7 ]
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [ <5, 
+Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <5, 10>, <7, 10> ], [ <5,
 1>, <7, 1> ]>
-Initial bad primes are { 3 }
+Initial bad primes are { 3, 5, 7 }
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
+Trying to eliminate p = 5
+5 eliminated by directly solving Thue equations
+Trying to eliminate p = 7
+7 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 8>, <3, 1> ], [], [ <2, 4> ]>
 Initial bad primes are {}
@@ -938,12 +1213,16 @@ For <A,B> = <[], [ <2, 1>, <3, 1>, <67, 10> ]>
 Many bad primes
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Modular method for <A,B,C> = <[], [ <2, 1>, <3, 1>, <67, 10> ], [ <67, 1> ]>
-Initial bad primes are { 3, 11 }
+Initial bad primes are { 3, 11, 67 }
 Computing newforms at levels { 402, 6432 }
-11 auxilliary primes found
-Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 + 
+Trying to eliminate p = 11
+11 auxiliary primes found
+Using Sturm bound argument for the newform q + q^2 + q^3 + q^4 + a*q^5 + q^6 +
 1/2*(a^2 - 3*a - 2)*q^7 + q^8 + q^9 + a*q^10 + (-2*a + 2)*q^11 + O(q^12)
 at level 402
+Trying to eliminate p = 67
+14 auxiliary primes found
+Trying to eliminate p = 3
 3 eliminated by directly solving Thue equations
 All primes eliminated
 Modular method for <A,B,C> = <[ <2, 7>, <3, 1> ], [], [ <2, 5> ]>
