@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////
 
-// This code carries out all of the checks for the paper 
+// This code carries out all of the checks for the paper
 // "On power values of pyramidal numbers, II"
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -20,13 +20,13 @@
 ////////////////////////////////////////////////////////////////////////////////////////
 
 
-load "PyramidalFunctions.m";
+// load "PyramidalFunctions.m";
 
 // Case 1
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = p1^r1, for r1 = 0,1,2 and p1 > 3
 // am+bm = p2^r2 for r2 = 0,1,2,3 and p2 > 3
 
@@ -34,7 +34,7 @@ load "PyramidalFunctions.m";
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = p1^r1, for r1 = 0,1,2 and p1 > 2
 // am+bm = p2^r2 for r2 = 0,1,2,3 and p2 > 2
 
@@ -49,7 +49,7 @@ print "Case",cs;
 
 // computes possibilities for <A,SA> and <B,SB>
 
-ABcase1:=function(m);       
+ABcase1:=function(m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 1 then
@@ -57,8 +57,8 @@ ABcase1:=function(m);
             r1:= 0;
          else p1 := PrimeFactors(bm)[1];
               r1 := Valuation(bm,p1);
-         end if; 
- 
+         end if;
+
          if am+bm eq 1 then
             p2 := 1;
             r2:= 0;
@@ -69,7 +69,7 @@ ABcase1:=function(m);
          p0:=11;
          al1s:=[0,1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -77,7 +77,7 @@ ABcase1:=function(m);
          end if;
          gam1s:=[0,r1,p0-r1];
          gam2s:=[0,r2,p0-r2];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
@@ -88,7 +88,7 @@ ABcase1:=function(m);
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -99,7 +99,7 @@ ABcase1:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
@@ -114,24 +114,24 @@ Denom1:=function(A,B,p,m);     // computes denominator of (amx-bm) from A,B, and
          else p1 := PrimeFactors(bm)[1];
             gam1 := Valuation(A,p1);
          end if;
-         
+
          if am+bm eq 1 then
             p2 := 1;
             gam2 := 0;
          else p2 := PrimeFactors(am+bm)[1];
               gam2 := Valuation(B,p2);
          end if;
-         
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
 
-         CC:=3^be3;               // Build up denominator 
-         if gam1 ne 0 then 
+         CC:=3^be3;               // Build up denominator
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          return CC;
@@ -140,7 +140,7 @@ end function;
  Bp:=Pyramidal(Ainfo,Binfo,m,Denom1,cs);  // run main function
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-r2), p2^r2  and   cm*p1^(p-r1), 1, p1^r1
 
 
@@ -151,8 +151,8 @@ if bm eq 1 then
    r1:= 0;
 else p1 := PrimeFactors(bm)[1];
      r1 := Valuation(bm,p1);
-end if; 
- 
+end if;
+
 if am+bm eq 1 then
    p2 := 1;
    r2:= 0;
@@ -169,7 +169,7 @@ Mm := Modular(A,Sequ(A),B,Sequ(B),C,m);
 if m ne 8 then           // (When m = 8, we get A =2, B = 1)
    A := cm*p1^(p0-r1); B := 1; C := p1^r1;
    print "Modular method for <A,B,C> =", <Factorisation(A),Factorisation(B),Factorisation(C)>;
-   Mm := Modular(A,Sequ(A),B,Sequ(B),C,m);   
+   Mm := Modular(A,Sequ(A),B,Sequ(B),C,m);
 end if;
 
 print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++";
@@ -182,7 +182,7 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = 2*p1^r1 for r1 = 0,1 and p1 > 3
 // am+bm = p2 and p2 > 3
 
@@ -190,7 +190,7 @@ end for;
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = 2*p1^r1 for r1 = 0,1 and p1 > 2
 // am+bm = p2 and p2 > 2
 
@@ -205,20 +205,20 @@ print "Case",cs;
 
 // computes possibilities for <A,SA> and <B,SB>
 
-ABcase2:=function(m);       
+ABcase2:=function(m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 2 then
             p1 := 1;
          else p1 := PrimeFactors(bm)[2];
          end if;
- 
+
          p2 := PrimeFactors(am+bm)[1];
 
          p0:=11;
          al1s:=[0,1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -226,18 +226,18 @@ ABcase2:=function(m);
          end if;
          gam1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);    
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -248,13 +248,13 @@ ABcase2:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase2(m);
 
-Denom2:=function(A,B,p,m);    
+Denom2:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 2 then
@@ -262,34 +262,34 @@ Denom2:=function(A,B,p,m);
          else p1 := PrimeFactors(bm)[2];
               gam1 := Valuation(A,p1);
          end if;
-         
+
          p2 := PrimeFactors(am+bm)[1];
          gam2 := Valuation(B,p2);
 
-         if A mod 2 ne 0 and B mod 2 ne 0 then 
+         if A mod 2 ne 0 and B mod 2 ne 0 then
             al3:=1;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam1 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom2,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom2,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1), p2  and   (cm/2)*p1^(p-r1), 1, p1^r1
 
 cs:=2;
@@ -299,7 +299,7 @@ if bm eq 2 then
    r1:= 0;
 else p1 := PrimeFactors(bm)[2];
      r1 := Valuation(bm,p1);
-end if; 
+end if;
 p2 := am+bm;
 
 p0 := 11;
@@ -322,7 +322,7 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = 4*p1^r1 for r1 = 0,1  and p1 > 3
 // am+bm = p2^r2 for r2 = 1,2 and p2 > 3
 
@@ -330,7 +330,7 @@ end for;
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = 4*p1^r1 for r1 = 0,1 and p1 > 2
 // am+bm = p2^r2 for r2 = 2 and p2 > 2
 
@@ -339,25 +339,25 @@ end for;
 for m in [9, 25, 33, 17, 41] do
 print "Considering m =", m;
 
-cs:=3;  
+cs:=3;
 
 print "Case",cs;
 
-ABcase3:=function(m);       
+ABcase3:=function(m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 4 then
             p1 := 1;
          else p1 := PrimeFactors(bm)[2];
          end if;
- 
+
          p2 := PrimeFactors(am+bm)[1];
          r2 := Valuation(am+bm,p2);
 
          p0:=11;
          al1s:=[0,2,p0-1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -365,18 +365,18 @@ ABcase3:=function(m);
          end if;
          gam1s:=[0,1,p0-1];
          gam2s:=[0,r2,p0-r2];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);    
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -387,13 +387,13 @@ ABcase3:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase3(m);
 
-Denom3:=function(A,B,p,m);    
+Denom3:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 4 then
@@ -401,47 +401,47 @@ Denom3:=function(A,B,p,m);
          else p1 := PrimeFactors(bm)[2];
               gam1 := Valuation(A,p1);
          end if;
-         
+
          p2 := PrimeFactors(am+bm)[1];
          gam2 := Valuation(B,p2);
          al1:=Valuation(A,2);
 
-         if  al1 eq p-1 then 
+         if  al1 eq p-1 then
              al3:=2;
          elif al1 eq 2 then
              al3:=p-1;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam1 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom3,cs); 
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom3,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-r2), p2^r2  and   2^(p-1)*(cm/2)*p1^(p-r1), 1, 2^2*p1^r1
 
-cs:=3; 
+cs:=3;
 am,bm,cm := ambmcm(m);
 if bm eq 4 then
    p1 := 1;
    r1:= 0;
 else p1 := PrimeFactors(bm)[2];
      r1 := Valuation(bm,p1);
-end if; 
+end if;
 
 p2 := PrimeFactors(am+bm)[1];
 r2 := Valuation(am+bm,p2);
@@ -455,7 +455,7 @@ Mm := Modular(A,Sequ(A),B,Sequ(B),C,m);
 A := 2^(p0-1)* (Integers() ! (cm/2)) *p1^(p0-r1); B := 1; C := 2^2*p1^r1;
 print "Modular method for <A,B,C> =", <Factorisation(A),Factorisation(B),Factorisation(C)>;
 Mm := Modular(A,Sequ(A),B,Sequ(B),C,m);
- 
+
 print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++";
 end for;
 
@@ -466,15 +466,15 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = p1, and p1 > 3
 // am+bm = p2*q2, and p2, q2 > 3
 
-//  m =  36, 42, 46  
+//  m =  36, 42, 46
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = p1, and p1 > 2
 // am+bm = p2*q2, and p2, q2 > 2
 
@@ -485,22 +485,22 @@ print "Considering m =", m;
 
 cs:=11;  // case number
 
-print "Case",cs; 
+print "Case",cs;
 print "This is part of Case 1 in the paper";
 
 // computes possibilities for <A,SA> and <B,SB>
 
-ABcase11:=function(m);       
+ABcase11:=function(m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := bm;           
+         p1 := bm;
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
 
          p0:=11;
          al1s:=[0,1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -509,18 +509,18 @@ ABcase11:=function(m);
          gam1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
          del2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);   
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -533,33 +533,33 @@ ABcase11:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase11(m);
 
-Denom11:=function(A,B,p,m);     
+Denom11:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := bm;           
+         p1 := bm;
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
-         
+
          gam1 := Valuation(A,p1);
          gam2 := Valuation(B,p2);
          del2 := Valuation(B,q2);
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
 
-         CC:=3^be3;              
-         if gam1 ne 0 then 
+         CC:=3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          if del2 ne 0 then
@@ -568,14 +568,14 @@ Denom11:=function(A,B,p,m);
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom11,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom11,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1)*q2^(p-1), p2*q2  and   cm*p1^(p-1), 1, p1
 
 am,bm,cm := ambmcm(m);
-p1 := bm;            
+p1 := bm;
 p2 := PrimeFactors(am+bm)[1];
 q2 := PrimeFactors(am+bm)[2];
 p0 := 11;
@@ -598,15 +598,15 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = p1*q1, and p1, q1 > 3
 // am+bm = p2, and p2 > 3
 
-//  m =  40  
+//  m =  40
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = p1*q1, and p1, q1 > 2
 // am+bm = p2, and p2, > 2
 
@@ -617,22 +617,22 @@ print "Considering m =", m;
 
 cs:=12;  // case number
 
-print "Case",cs; 
+print "Case",cs;
 print "This is part of Case 1 in the paper";
 
 // computes possibilities for <A,SA> and <B,SB>
 
-ABcase12:=function(m);       
+ABcase12:=function(m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[1]; 
-         q1 := PrimeFactors(bm)[2];           
+         p1 := PrimeFactors(bm)[1];
+         q1 := PrimeFactors(bm)[2];
          p2 := am+bm;
-         
+
          p0:=11;
          al1s:=[0,1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -641,57 +641,57 @@ ABcase12:=function(m);
          gam1s:=[0,1,p0-1];
          del1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      for del1 in del1s do
                          A:=2^al1*3^be1*p1^gam1*q1^del1;
-                         SA:=Sequ(A);   
+                         SA:=Sequ(A);
                          Ainfo := Ainfo join { <A,SA> };
                      end for;
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
-                 for gam2 in gam2s do                    
+                 for gam2 in gam2s do
                      B:=2^al2*3^be2*p2^gam2;
                      SB:=Sequ(B);
-                     Binfo := Binfo join { <B,SB> };                     
+                     Binfo := Binfo join { <B,SB> };
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase12(m);
 
-Denom12:=function(A,B,p,m);     
+Denom12:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[1]; 
-         q1 := PrimeFactors(bm)[2];           
+         p1 := PrimeFactors(bm)[1];
+         q1 := PrimeFactors(bm)[2];
          p2 := am+bm;
-         
+
          gam1 := Valuation(A,p1);
          del1 := Valuation(A,q1);
          gam2 := Valuation(B,p2);
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
 
-         CC:=3^be3;              
-         if gam1 ne 0 then 
+         CC:=3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if del1 ne 0 then 
+         if del1 ne 0 then
             CC := CC*q1^(p-del1);
          end if;
          if gam2 ne 0 then
@@ -700,15 +700,15 @@ Denom12:=function(A,B,p,m);
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom12,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom12,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1), p2  and   cm*p1^(p-1)*q1^(p-1), 1, p1*q1
 
 am,bm,cm := ambmcm(m);
-p1 := PrimeFactors(bm)[1]; 
-q1 := PrimeFactors(bm)[2];           
+p1 := PrimeFactors(bm)[1];
+q1 := PrimeFactors(bm)[2];
 p2 := am+bm;
 p0 := 11;
 
@@ -730,7 +730,7 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = 2*p1, and p1 > 3
 // am+bm = p2*q2 and p2, q2 > 3
 
@@ -738,7 +738,7 @@ end for;
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = 2*p1, and p1 > 2
 // am+bm = p2*q2 and p2,q2 > 2
 
@@ -749,20 +749,20 @@ print "Considering m =", m;
 
 cs:=21;  // case number
 
-print "Case",cs; 
+print "Case",cs;
 print "This is part of Case 2 in the paper";
 
-ABcase21:=function(m);       
+ABcase21:=function(m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[2];            
+         p1 := PrimeFactors(bm)[2];
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
 
          p0:=11;
          al1s:=[0,1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -771,18 +771,18 @@ ABcase21:=function(m);
          gam1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
          del2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);    
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -795,16 +795,16 @@ ABcase21:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase21(m);
 
-Denom21:=function(A,B,p,m);    
+Denom21:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[2];            
+         p1 := PrimeFactors(bm)[2];
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
 
@@ -812,21 +812,21 @@ Denom21:=function(A,B,p,m);
          gam2 := Valuation(B,p2);
          del2 := Valuation(B,q2);
 
-         if A mod 2 ne 0 and B mod 2 ne 0 then 
+         if A mod 2 ne 0 and B mod 2 ne 0 then
             al3:=1;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam1 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          if del2 ne 0 then
@@ -835,14 +835,14 @@ Denom21:=function(A,B,p,m);
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom21,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom21,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1)*q2^(p-1), p2*q2  and   (cm/2)*p1^(p-1), 1, p1
 
 am,bm,cm := ambmcm(m);
-p1 := PrimeFactors(bm)[2];            
+p1 := PrimeFactors(bm)[2];
 p2 := PrimeFactors(am+bm)[1];
 q2 := PrimeFactors(am+bm)[2];
 
@@ -864,7 +864,7 @@ end for;
 
 // Case 31 (like case 3)
 
-// cm = 6. 
+// cm = 6.
 // bm = 4*p1, and p1 > 3
 // am+bm = p2*q2, and p2, q2 > 3
 
@@ -873,22 +873,22 @@ end for;
 for m in [49] do
 print "Considering m =", m;
 
-cs:=31;  
+cs:=31;
 
-print "Case",cs; 
+print "Case",cs;
 print "This is part of Case 3 in the paper";
 
-ABcase31:=function(m);       
+ABcase31:=function(m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[2]; 
+         p1 := PrimeFactors(bm)[2];
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
 
          p0:=11;
          al1s:=[0,2,p0-1];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -897,18 +897,18 @@ ABcase31:=function(m);
          gam1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
          del2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);    
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -921,16 +921,16 @@ ABcase31:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase31(m);
 
-Denom31:=function(A,B,p,m);    
+Denom31:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
-         p1 := PrimeFactors(bm)[2]; 
+         p1 := PrimeFactors(bm)[2];
          p2 := PrimeFactors(am+bm)[1];
          q2 := PrimeFactors(am+bm)[2];
 
@@ -938,24 +938,24 @@ Denom31:=function(A,B,p,m);
          gam1 := Valuation(A,p1);
          gam2 := Valuation(B,p2);
          del2 := Valuation(B,q2);
-         
-         if  al1 eq p-1 then 
+
+         if  al1 eq p-1 then
              al3:=2;
          elif al1 eq 2 then
              al3:=p-1;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam1 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          if del2 ne 0 then
@@ -964,14 +964,14 @@ Denom31:=function(A,B,p,m);
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom31,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom31,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1)*q2^(p-1), p2*q2  and   2^(p-1)*(cm/2)*p1^(p-1), 1, 2^2*p1
 
 am,bm,cm := ambmcm(m);
-p1 := PrimeFactors(bm)[2]; 
+p1 := PrimeFactors(bm)[2];
 p2 := PrimeFactors(am+bm)[1];
 q2 := PrimeFactors(am+bm)[2];
 
@@ -995,7 +995,7 @@ end for;
 
 // EITHER
 
-// cm = 6. 
+// cm = 6.
 // bm = 8*p1^r1 for r1 = 0,1  and p1 > 3
 // am+bm = p2, and p2 > 3
 
@@ -1003,7 +1003,7 @@ end for;
 
 // OR
 
-// cm = 2. 
+// cm = 2.
 // bm = 8
 // am+bm = p2, and p2 > 2
 
@@ -1012,26 +1012,26 @@ end for;
 for m in [13, 45, 29] do
 print "Considering m =", m;
 
-cs:=4;  
+cs:=4;
 
-print "Case",cs; 
+print "Case",cs;
 
 // (Extra cases needed below for p = 3)
 
-ABcase4:=function(m);       
+ABcase4:=function(m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 8 then
             p1 := 1;
          else p1 := PrimeFactors(bm)[2];
          end if;
- 
+
          p2 := am+bm;
-       
+
          p0:=11;
          al1s:=[0,3,p0-2];
          al2s:=[0,1];
-         if cm eq 2 then 
+         if cm eq 2 then
             be1s:=[0];
             be2s:=[0];
          else be1s:=[0,1];
@@ -1039,18 +1039,18 @@ ABcase4:=function(m);
          end if;
          gam1s:=[0,1,p0-1];
          gam2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
              for be1 in be1s do
                  for gam1 in gam1s do
                      A:=2^al1*3^be1*p1^gam1;
-                     SA:=Sequ(A);    
+                     SA:=Sequ(A);
                      Ainfo := Ainfo join { <A,SA> };
                  end for;
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -1061,13 +1061,13 @@ ABcase4:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase4(m);
 
-Denom4:=function(A,B,p,m);    
+Denom4:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
          if bm eq 8 then
@@ -1075,38 +1075,38 @@ Denom4:=function(A,B,p,m);
          else p1 := PrimeFactors(bm)[2];
               gam1 := Valuation(A,p1);
          end if;
-         
+
          p2 := PrimeFactors(am+bm)[1];
          gam2 := Valuation(B,p2);
          al1:=Valuation(A,2);
 
-         if  al1 eq p-2 then 
+         if  al1 eq p-2 then
              al3:=3;
          elif al1 eq 3 then
              al3:=p-2;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam1 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam1 ne 0 then
             CC := CC*p1^(p-gam1);
          end if;
-         if gam2 ne 0 then 
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom4,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom4,cs);
 
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1), p2  and   2^(p-2)*(cm/2)*p1^(p-r1), 1, 2^3*p1^r1
 
 cs := 4;
@@ -1116,7 +1116,7 @@ if bm eq 8 then
    r1:= 0;
 else p1 := PrimeFactors(bm)[2];
      r1 := Valuation(bm,p1);
-end if; 
+end if;
 p2 := am+bm;
 
 p0 := 11;
@@ -1137,8 +1137,8 @@ end for;
 
 // Case 5
 
-// cm = 6. 
-// bm = 16 
+// cm = 6.
+// bm = 16
 // am+bm = p2*q2, and p2, q2 > 3
 
 // m = 21
@@ -1146,13 +1146,13 @@ end for;
 for m in [21] do
 print "Considering m =", m;
 
-cs:=5;  
+cs:=5;
 
-print "Case",cs; 
+print "Case",cs;
 
 // (Extra cases needed below for p = 3 and p = 5)
 
-ABcase5:=function(m);       
+ABcase5:=function(m);
          am,bm,cm:= ambmcm(m);
 
          p2 := PrimeFactors(am+bm)[1];
@@ -1165,16 +1165,16 @@ ABcase5:=function(m);
          be2s:=[0,1];
          gam2s:=[0,1,p0-1];
          del2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
-             for be1 in be1s do                 
+             for be1 in be1s do
                  A:=2^al1*3^be1;
-                 SA:=Sequ(A);    
-                 Ainfo := Ainfo join { <A,SA> };                
+                 SA:=Sequ(A);
+                 Ainfo := Ainfo join { <A,SA> };
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
@@ -1187,13 +1187,13 @@ ABcase5:=function(m);
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase5(m);
 
-Denom5:=function(A,B,p,m);    
+Denom5:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
          p2 := PrimeFactors(am+bm)[1];
@@ -1213,25 +1213,25 @@ Denom5:=function(A,B,p,m);
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam2 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
-         if del2 ne 0 then 
+         if del2 ne 0 then
             CC := CC*q2^(p-del2);
          end if;
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom5,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom5,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1)*q2^(p-1), p2*q2  and   2^(p-3)*(cm/2), 1, 2^4
 
 am,bm,cm := ambmcm(m);
@@ -1258,8 +1258,8 @@ end for;
 // p = 3 not treated here.
 // (Extra cases needed below for p = 3 and p = 5)
 
-// cm = 6. 
-// bm = 32 
+// cm = 6.
+// bm = 32
 // am+bm = p2, and p2 > 3
 
 // m = 37
@@ -1267,79 +1267,79 @@ end for;
 for m in [37] do
 print "Considering m =", m;
 
-cs:=6;  
+cs:=6;
 
-print "Case",cs; 
+print "Case",cs;
 
 // (Extra cases needed below for p = 3, p = 5, and p = 7)
 
-ABcase6:=function(m);       
+ABcase6:=function(m);
          am,bm,cm:= ambmcm(m);
          p2 := am+bm;
-         
+
          p0:=11;
          al1s:=[0,5,p0-4];
          al2s:=[0,1];
          be1s:=[0,1];
          be2s:=[0,1];
          gam2s:=[0,1,p0-1];
-         
+
          Ainfo:= {};
          for al1 in al1s do
-             for be1 in be1s do                 
+             for be1 in be1s do
                  A:=2^al1*3^be1;
-                 SA:=Sequ(A);    
-                 Ainfo := Ainfo join { <A,SA> };                
+                 SA:=Sequ(A);
+                 Ainfo := Ainfo join { <A,SA> };
              end for;
          end for;
-            
+
          Binfo:= {};
          for al2 in al2s do
              for be2 in be2s do
-                 for gam2 in gam2s do                    
+                 for gam2 in gam2s do
                      B:=2^al2*3^be2*p2^gam2;
                      SB:=Sequ(B);
-                     Binfo := Binfo join { <B,SB> };                    
+                     Binfo := Binfo join { <B,SB> };
                  end for;
              end for;
          end for;
-           
+
          return Ainfo,Binfo;
 end function;
 
 Ainfo,Binfo:=ABcase6(m);
 
-Denom6:=function(A,B,p,m);    
+Denom6:=function(A,B,p,m);
          am,bm,cm:= ambmcm(m);
 
          p2 := am+bm;
-         
+
          gam2 := Valuation(B,p2);
          al1:=Valuation(A,2);
 
-         if  al1 eq p-4 then 
+         if  al1 eq p-4 then
              al3:=5;
          elif al1 eq 5 then
              al3:=p-4;
          else al3:=0;
          end if;
 
-         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then 
+         if cm eq 6 and A mod 3 ne 0 and B mod 3 ne 0 then
             be3:=1;
          else be3:=0;
          end if;
-        
-         CC:=2^al3*3^be3;               
-         if gam2 ne 0 then 
+
+         CC:=2^al3*3^be3;
+         if gam2 ne 0 then
             CC := CC*p2^(p-gam2);
          end if;
          return CC;
 end function;
 
-Bp:=Pyramidal(Ainfo,Binfo,m,Denom6,cs);  
+Bp:=Pyramidal(Ainfo,Binfo,m,Denom6,cs);
 
 ////////////////////////////////////////////
-// Bad Triples (A,B,C) in each case are 
+// Bad Triples (A,B,C) in each case are
 // 1, cm*p2^(p-1), p2 and   2^(p-4)*(cm/2), 1, 2^5
 cs := 6;
 am,bm,cm := ambmcm(m);
@@ -1369,7 +1369,7 @@ print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-// Extra Cases 
+// Extra Cases
 
 print "Considering extra cases for small p and bm = 2^t with t > 2";
 
@@ -1382,7 +1382,7 @@ print "Considering extra cases for small p and bm = 2^t with t > 2";
 
 m := 29;
 am,bm,cm := ambmcm(m);
-p:=3; 
+p:=3;
 al:=2;
 
 ExtraTriples := [ [2^al,1,2^al], [2^al, am+bm, (am+bm)^(p-1)*2^al], [2^al, (am+bm)^(p-1), (am+bm)*2^al] ];
@@ -1452,7 +1452,7 @@ m := 21;
 am,bm,cm := ambmcm(m);
 p2:=PrimeFactors(am+bm)[1];
 q2:=PrimeFactors(am+bm)[2];
-p:=3; 
+p:=3;
 al:=2;
 // p:=5;
 // al:=3;
@@ -1471,10 +1471,10 @@ for del in dels do
 end for;
 
 for Ex in Ext do
-    if p eq 3 then 
+    if p eq 3 then
        assert SysThue( Triples(Ex[1],Ex[2],Ex[3],m), p) eq 0;
     end if;
-    if p eq 5 then 
+    if p eq 5 then
        assert SysLocal( Triples(Ex[1],Ex[2],Ex[3],m), p) eq 0;
     end if;
 end for;
@@ -1493,9 +1493,9 @@ m := 37;
 
 p := 3;
 al := 2;
-// p:=5; 
+// p:=5;
 // al:=3;
-// p:=7; 
+// p:=7;
 // al:=4;
 
 am,bm,cm := ambmcm(m);
@@ -1550,4 +1550,3 @@ for Ex in Ext do
 end for;
 
 print "No unexpected solutions found from extra cases";
-
